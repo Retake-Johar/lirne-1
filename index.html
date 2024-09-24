@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.svg">
+    <title>Retaj | Online Education</title>
+    <!-- File Style Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- Boxicons Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Swiper Css Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!-- Header Start -->
+    <header>
+        <a href="#home" class="logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <div class="logo_text">
+                <span>EDUCA</span>
+                <p>RETAJ</p>
+            </div>
+        </a>
+        <ul class="nav_list">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#teachers">Teachers</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class='bx bx-menu' id="menu_icon"></i>
+    </header>
+    <!-- Header End -->
+
+    <!-- Home Start -->
+    <section class="home" id="home">
+        <div class="home_text">
+            <h1>Online <br> <span>Education</span></h1>
+            <a href="#contact" class="btn">Contact Us<i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+        <div class="home_img">
+            <img src="img/home.png" alt="">
+        </div>
+    </section>
+    <!-- Home End -->
+
+    <!-- Achievement Start -->
+    <section class="achievement">
+        <div class="box">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <div class="text">
+                <span>150+</span>
+                <p>Courses</p> 
+            </div>   
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-user-graduate"></i>
+            <div class="text">
+                <span>1300+</span>
+                <p>Students</p> 
+            </div>   
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <div class="text">
+                <span>80+</span>
+                <p>Teachers</p> 
+            </div>   
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-face-smile"></i>
+            <div class="text">
+                <span>100%</span>
+                <p>Satisfaction</p> 
+            </div>   
+        </div>
+    </section>
+    <!-- Achievement End -->
+
+    <!-- About Start -->
+    <section class="about" id="about">
+        <div class="title">
+            <h2><span>ABOUT</span> US</h2>
+            <div class="line"></div>
+        </div>
+        <div class="content">     
+            <div class="about_img">
+                <img src="img/about.png" alt="">
+            </div>
+            <div class="about_text">
+                <h3>Why Choose Us?</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Neque est culpa id iure, error necessitatibus.</p>
+                <a href="#contact" class="btn">Contact Us<i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Courses Start -->
+    <section class="courses" id="courses">
+        <div class="title">
+            <h2>OUR <span>COURSES</span></h2>
+        </div>
+
+        <div class="container">
+            <div class="content">
+                <div class="box">
+                    <img src="img/engineer.png" alt="">
+                    <h3>Engineering</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                    <br>adipisicing elit. Qui, quas.</p>
+                </div>
+                <div class="box">
+                    <img src="img/web development.png" alt="">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                    <br>adipisicing elit. Qui, quas.</p>
+                </div>
+                <div class="box">
+                    <img src="img/marketing.png" alt="">
+                    <h3>Digital Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                    <br>adipisicing elit. Qui, quas.</p>
+                </div>
+                <div class="box">
+                    <img src="img/teacher.png" alt="">
+                    <h3>Teaching</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                    <br>adipisicing elit. Qui, quas.</p>
+                </div>
+                <div class="box">
+                    <img src="img/Designer.png" alt="">
+                    <h3>Graphic Desgin</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                    <br>adipisicing elit. Qui, quas.</p>
+                </div>
+                <div class="box">
+                    <img src="img/science.png" alt="">
+                    <h3>Science And Biology</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                    <br>adipisicing elit. Qui, quas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Courses End -->
+
+    <!-- Teachers Start -->
+    <section class="teachers" id="teachers">
+        <div class="title">
+            <h2>EXPERT <span>TUTORS</span></h2>
+        </div>
+        
+        <div class="swiper teachers_slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <img src="img/teacher-1.JPG" alt="">
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    </div>
+                    <div class="text">
+                        <h3>John Deo</h3>
+                        <p>Web Developer</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="img/teacher-2.JPG" alt="">
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    </div>
+                    <div class="text">
+                        <h3>John Deo</h3>
+                        <p>Teaching</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="img/teacher-3.JPG" alt="">
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    </div>
+                    <div class="text">
+                        <h3>John Deo</h3>
+                        <p>Science And Biology</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="img/teacher-4.JPG" alt="">
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    </div>
+                    <div class="text">
+                        <h3>John Deo</h3>
+                        <p>Graphic Desgin</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="img/teacher-5.JPG" alt="">
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    </div>
+                    <div class="text">
+                        <h3>John Deo</h3>
+                        <p>Digital Marketing</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="img/teacher-6.JPG" alt="">
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    </div>
+                    <div class="text">
+                        <h3>John Deo</h3>
+                        <p>Engineering</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- Teachers End -->
+
+    <!-- Reviews Start -->
+    <section class="reviews" id="reviews">
+        <div class="title">
+            <h2>STUDENT'S <span>REVIEWS</span></h2>
+        </div>
+
+        <div class="swiper reviews_slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slider">
+                    <div class="box">
+                        <img src="img/reviews-1.JPG" alt="">
+                        <div class="text">
+                            <h3>John Doe</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iure perferendis repellendus illum ea possimus maiores
+                    ad veniam hic aspernatur quia!</p>
+                </div>
+
+                <div class="swiper-slide slider">
+                    <div class="box">
+                        <img src="img/reviews-2.JPG" alt="">
+                        <div class="text">
+                            <h3>John Doe</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iure perferendis repellendus illum ea possimus maiores
+                    ad veniam hic aspernatur quia!</p>
+                </div>
+
+                <div class="swiper-slide slider">
+                    <div class="box">
+                        <img src="img/reviews-3.JPG" alt="">
+                        <div class="text">
+                            <h3>John Doe</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iure perferendis repellendus illum ea possimus maiores
+                    ad veniam hic aspernatur quia!</p>
+                </div>
+
+                <div class="swiper-slide slider">
+                    <div class="box">
+                        <img src="img/reviews-2.JPG" alt="">
+                        <div class="text">
+                            <h3>John Doe</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iure perferendis repellendus illum ea possimus maiores
+                    ad veniam hic aspernatur quia!</p>
+                </div>
+
+                <div class="swiper-slide slider">
+                    <div class="box">
+                        <img src="img/reviews-2.JPG" alt="">
+                        <div class="text">
+                            <h3>John Doe</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iure perferendis repellendus illum ea possimus maiores
+                    ad veniam hic aspernatur quia!</p>
+                </div>
+
+                <div class="swiper-slide slider">
+                    <div class="box">
+                        <img src="img/reviews-2.JPG" alt="">
+                        <div class="text">
+                            <h3>John Doe</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iure perferendis repellendus illum ea possimus maiores
+                    ad veniam hic aspernatur quia!</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- Reviews End -->
+
+    <!-- Contact Start -->
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2><span>CONTACT</span> US</h2>
+        </div>
+
+        <div class="content">
+            <div class="contact_img">
+                <img src="img/contact.png" alt="">
+            </div>
+            <form action="" class="contact_form">
+                <span>Your Name</span>
+                <input type="text" placeholder="enter your full name" required>
+                <span>Your Number</span>
+                <input type="number" placeholder="enter your valie number" required>
+                <span>Your Email</span>
+                <input type="email" placeholder="enter your valie email" required>
+                <span>Select Course</span>
+                <select name="" id="" required>
+                    <option value="Select the Course"> Select the Course --</option>
+                    <option value="Graphic Desginr">Graphic Desgin</option>
+                    <option value="Engineering">Engineeringt</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Digital Marketing">Digital Marketing</option>
+                    <option value="Science And Biology">Science And Biology</option>
+                    <option value="Teaching">Teaching</option>
+                </select>
+                <span>Select Gender</span>
+                <div class="gender">
+                    <input type="radio" name="gender" value="male" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="female" id="female">
+                    <label for="female">Female</label>
+                </div>
+                <a href="#" class="btn perimary">Send Message <i class="fa-solid fa-paper-plane"></i></a>
+            </form>
+        </div>
+    </section>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+        </div>
+        <div class="line"></div>
+        <p>@ Copyright @ 2024 By <span>Retaj Johar</span> | All Rights Reservedl</p>
+    </footer>
+    <!-- Footer End -->
+   
+    <!-- Swiper Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Flie Script Link-->
+    <script src="script.js"></script>
+</body>
+</html>
